@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot-multifuncional",
+  "version": "1.0.0",
+  "description": "Bot de Discord multifuncional con sistema de tickets, moderación, auto-roles y más",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["discord", "bot", "tickets", "moderacion", "autoroles"],
+  "author": "itz_Secret",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.3.1",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
